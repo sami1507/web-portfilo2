@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sami Abu Raaed - Junior Software Developer specializing in Android (Kotlin/Jetpack Compose) and Full-Stack Development">
+    <meta name="keywords" content="Android Developer, Kotlin, Jetpack Compose, React, Node.js, Software Developer">
+    <meta name="author" content="Sami Abu Raaed">
+    <title>Sami Abu Raaed | Software Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="logo">
+                <span class="logo-text">Sami<span class="highlight">.dev</span></span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="greeting" data-aos="fade-up">Hi, I'm</span>
+                    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+                        Sami Abu Raaed
+                    </h1>
+                    <h2 class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+                        Junior Software Developer
+                    </h2>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                        Building Android apps with <span class="highlight">Kotlin & Jetpack Compose</span> 
+                        and full-stack solutions with <span class="highlight">React & Node.js</span>
+                    </p>
+                    <div class="hero-buttons" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="500">
+                        <a href="https://github.com/sami1507" target="_blank" rel="noopener" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/sami-abu-raaed-89277b307" target="_blank" rel="noopener" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:samiaburaed42@gmail.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="600">
+                    <div class="image-wrapper">
+                        <div class="floating-card card-1">
+                            <i class="fab fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="code-illustration">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="lead">
+                        I'm a passionate junior software developer with a <strong>Practical Engineering Diploma in Software Engineering</strong> 
+                        from the College of Management, Haifa (graduated October 2025).
+                    </p>
+                    <p>
+                        I specialize in building <strong>Android applications</strong> using Kotlin and Jetpack Compose, 
+                        with experience in Firebase/Firestore integration and location-based services using Mapbox and OpenStreetMap.
+                    </p>
+                    <p>
+                        Beyond mobile development, I'm comfortable with <strong>full-stack web development</strong> using React, 
+                        Node.js, and Express.js. I also have experience with cross-platform frameworks like Flutter and React Native.
+                    </p>
+                    <p>
+                        My background in customer-facing roles has strengthened my <strong>communication and leadership skills</strong>, 
+                        making me a collaborative team player who thrives under pressure.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>Software Engineering Diploma</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Umm al-Fahm, Israel</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4>Languages</h4>
+                                <p>Arabic, Hebrew, English, Spanish</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="3">0</h3>
+                        <p class="stat-label">Major Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="10">0</h3>
+                        <p class="stat-label">Technologies</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="4">0</h3>
+                        <p class="stat-label">Languages Spoken</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="stat-number" data-target="4">0</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Android Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <div class="category-header">
+                        <i class="fab fa-android"></i>
+                        <h3>Android Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Kotlin</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Jetpack Compose</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Android Studio</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">REST APIs</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maps & Location -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <div class="category-header">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Maps & Location</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Mapbox SDK</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenStreetMap</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GPS Integration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <div class="category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cross-Platform -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <div class="category-header">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Cross-Platform</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Flutter (Dart)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React Native</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Database & Cloud -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="500">
+                    <div class="category-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Database & Cloud</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Firebase</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Firestore</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Practices -->
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="600">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Practices</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git/GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux (Ubuntu)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Agile</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">VS Code</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1: Pathy -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sami1507" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="project-badge">Graduation Project</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pathy</h3>
+                        <p class="project-description">
+                            Offline navigation & community app for hiking and nature trips. Features offline trail navigation, 
+                            route recording, community posts/events, and groundwork for P2P offline walkie-talkie functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Jetpack Compose</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Mapbox</span>
+                            <span class="tech-tag">OpenStreetMap</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sami1507" target="_blank" class="btn-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: E-Commerce Platform -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sami1507" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mini e-Commerce Platform</h3>
+                        <p class="project-description">
+                            Full-stack e-commerce application with user authentication, product catalog UI, 
+                            and REST API for product data management. Built with modern web technologies.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sami1507" target="_blank" class="btn-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Task Manager -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://github.com/sami1507" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Manager App</h3>
+                        <p class="project-description">
+                            Cross-platform task management application with CRUD operations, cloud synchronization, 
+                            and user authentication. Built with Flutter for iOS and Android.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Cloud Sync</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sami1507" target="_blank" class="btn-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Experience & Education</h2>
+            <div class="timeline">
+                <!-- Education -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon education">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2022 - Oct 2025</span>
+                        <h3>Practical Engineering Diploma in Software Engineering</h3>
+                        <h4>College of Management, Haifa</h4>
+                        <p>
+                            Comprehensive coursework in full-stack web & mobile development, Object-Oriented Programming, 
+                            databases, and software quality assurance. Graduated with hands-on experience in modern development practices.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Current Job -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-icon work">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jul 2025 - Present</span>
+                        <h3>Shift Manager & Cashier</h3>
+                        <h4>Burger Saloon Restaurant, Israel</h4>
+                        <p>
+                            Managing shift operations and cash/POS responsibilities. Coordinating team during peak hours, 
+                            ensuring smooth operations and excellent customer service.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li>Leadership and team coordination</li>
+                            <li>Cash management and POS operations</li>
+                            <li>Customer service excellence</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Previous Job -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-icon work">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2025</span>
+                        <h3>Order Fulfillment Associate</h3>
+                        <h4>Rami Levy Supermarket, Israel</h4>
+                        <p>
+                            Processed orders accurately with attention to detail. Handled product substitutions and 
+                            maintained efficient pace under time pressure in a fast-paced retail environment.
+                        </p>
+                        <ul class="timeline-highlights">
+                            <li>Order accuracy and attention to detail</li>
+                            <li>Time management under pressure</li>
+                            <li>Problem-solving and adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <p class="section-subtitle" data-aos="fade-up" data-aos-delay="100">
+                I'm currently open to opportunities in Israel or Canada. Let's connect!
+            </p>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:samiaburaed42@gmail.com">samiaburaed42@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <a href="tel:+972508150047">+972 50-815-0047</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Umm al-Fahm, Israel</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/sami1507" target="_blank">github.com/sami1507</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/sami-abu-raaed-89277b307" target="_blank">Connect with me</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                    <div class="form-status" id="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Sami Abu Raaed. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/sami1507" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/sami-abu-raaed-89277b307" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:samiaburaed42@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
